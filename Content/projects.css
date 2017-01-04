@@ -36,16 +36,7 @@
 	padding-bottom: 3px;
 	border:none;
 }
-#jetsons-img{
-	background-color: #e8e8e8;
-}
-.thumbnail{
-	border: 4px solid #c0c0c0;
-	padding: 2px;
-}
-.thumbnail:hover{
-	border: 2px solid orange;
-}
+
 .navbar{
 	margin: 0;
 }
@@ -60,22 +51,12 @@
 #jetsons-content{
 	padding:auto;
 }
-.enlarge{
-	padding: 0;
-}
 
 #quadcopter{
 	background-color: #e8e8e8;
 	width:100%;
 	padding-top: 20px;
 	padding-bottom: 20px;
-}
-#quadcaption{
-	padding-bottom: 20px;
-	min-height: 220px;
-}
-#quadimage{
-	background-color: #fff;
 }
 
 #aerodesign{
@@ -88,24 +69,7 @@
 	padding-bottom: 10px;
 	height: 100%;
 }
-.aeroPimage{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	padding-bottom: 5px;
-}
-#aerop1caption{
-	background-color: #ddd;
-	border: solid 1px black;
-}
-#aerop2caption{
-	background-color: #ddd;
-	border: solid 1px black;
-}
-#aerop3caption{
-	background-color: #ddd;
-	border: solid 1px black;
-}
+
 #aeroprojects h4{
 	text-align: center;
 	padding-top: 5px;
@@ -115,9 +79,6 @@
 #aeroprojects p{
 	padding: 2px;
 	text-align: center;
-}
-#aeroprojects .col-md-4{
-	vertical-align: top;
 }
 
 .cycle-slideshow{

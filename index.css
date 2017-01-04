@@ -189,6 +189,15 @@
 	background-size: 100% 100%;
 }
 
+#project-thumbnails{
+	padding-bottom: 10px;
+}
+.indexprojects h2 {
+	color: #393c3d;
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 20px;
+}
 
 .cycle-slideshow{
 	display: inline-block;
@@ -226,35 +235,6 @@
 	text-align: center;
 
 }
-
-
-#project-thumbnails{
-	padding-bottom: 10px;
-}
-.indexprojects h2 {
-	color: #393c3d;
-	font-size: 24px;
-	font-weight: bold;
-	padding-top: 20px;
-}
-
-.projectThumbnail{
-	margin: auto;
-	width: 250px;
-}
-.projectThumbnail img{
-	padding: 2px;
-	border:2px solid #ff6600;
-	width: 250px;
-
-}
-.projectThumbnail img:hover{
-	padding: 0px;
-	border: 4px solid #000;
-}
-
-
-
 
 .connect {
 	background-color: #f7f7f7;
