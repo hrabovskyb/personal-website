@@ -1,0 +1,153 @@
+.projects{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #e8e8e8;
+	border-bottom: 2px solid #ccc;
+}
+.caption h3{
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.caption h4 {
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 0;
+	text-align: left;
+}
+.caption h5{
+	font-weight: bold;
+	margin-top: 0;
+	text-align: center;
+	font-style: italic;
+}
+.caption p{
+	padding-top: 5px;
+	color: #000;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.section-image{
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	border:none;
+}
+#jetsons-img{
+	background-color: #e8e8e8;
+}
+.thumbnail{
+	border: 4px solid #c0c0c0;
+	padding: 2px;
+}
+.thumbnail:hover{
+	border: 2px solid orange;
+}
+.navbar{
+	margin: 0;
+}
+#meetthejetsons{
+	margin: 0;
+	margin-right: 0;
+	width: 100%;
+	border-bottom: solid 4px #ccc;
+	background-color: #e8e8e8;
+}
+#jetsons-content{
+	padding:auto;
+}
+.enlarge{
+	padding: 0;
+}
+
+#quadcopter{
+	background-color: #fff;
+	width:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#quadcaption{
+	padding-bottom: 20px;
+	min-height: 220px;
+}
+#quadimage{
+	background-color: #fff;
+}
+
+#aerodesign{
+	width:100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top: solid 4px #ccc;
+}
+.aeroPimage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5px;
+}
+#aerop1caption{
+	background-color: #ddd;
+	border: solid 1px black;
+}
+#aerop2caption{
+	background-color: #ddd;
+	border: solid 1px black;
+}
+#aerop3caption{
+	background-color: #ddd;
+	border: solid 1px black;
+}
+#aeroprojects h4{
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 0;
+	font-style: normal;
+}
+#aeroprojects p{
+	padding: 2px;
+	text-align: center;
+}
+#aeroprojects .col-md-4{
+	vertical-align: top;
+}
+
+.cycle-slideshow{
+	width: 100%;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 1%;
+	margin-top: 5px;
+	margin-left:0px; 
+	position: relative;
+	min-width: 250px;
+}
+
+.cycle-slideshow img{
+	width: 100%;
+}
+
+.center{
+	text-align: center;
+	margin-top: 5px;
+}
+.center a{
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.center img{
+	width: 32px;
+}
+.slideshow-container{
+	width: 30%;
+	float: left;
+	margin-right: 1%;
+	min-width: 300px;
+}
+
+.project-photos{
+	width: 20%;
+}

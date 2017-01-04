@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>R&eacutesum&eacute</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" href="../bootstrap-3.3.5-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="../Hover-master/css/hover.css" media="all">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="resume.css">
+	<link rel="shortcut icon" href="Media/favicon.ico">
+  <script type="text/javascript" src="../jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="../jquery.media.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function(){ //TO DO - trigger height change when it switches monitors
+        var pageheight = $(document).height();
+        $('#pdf').media({width:'100%', height:(pageheight-75)});
+      });
+
+      //SLIGHTLY BUGGY/DOESN'T WORK (Pick your poision)
+      //$(window).resize(function() {
+        //var newpageheight = $(document).height();
+        //$('#pdf').media({width:'100%', height:(newpageheight-100)});
+      //});
+    </script>
+
+</head>
+<body>
+
+	<div class="centered-logo">
+    <a href="../index.html"><img src="Media/gear_orange.png" id="logo"></a>
+  </div>
+
+  <div class="nav navbar" id="nav_bar">
+    <div class="container">
+      <ul class="nav nav-pills" id="tabs">
+        <li><a href="../index.html" class="hvr-shutter-out-vertical">Home</a></li>
+        <li class="active"><a href="resume.html" class="hvr-shutter-out-vertical">R&eacutesum&eacute</a></li>
+        <li><a href="experience.html" class="hvr-shutter-out-vertical">Experience</a></li>
+        <li><a href="projects.html" class="hvr-shutter-out-vertical">Projects</a></li>
+        <li><a href="contact.html" class="hvr-shutter-out-vertical">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="pdf_viewer">
+    <a id="pdf" href="Files/Resume_Brady Hrabovsky.pdf"></a>
+    <!--div class="container">
+      <object data="Files/Resume.pdf" type="application/pdf" height="900px" width="100%">
+        <div class="col-sm-12" id="oops">
+          <h4>Oops!</h4>
+          <p>It looks like your browser does not support the embedded viewer.</p>
+          <p>Please click <a href="Files/Resume.pdf">here</a> to view my resume</p>
+        </div>
+      </object>
+    </div-->
+  </div>
+
+
+</body>
+</html>

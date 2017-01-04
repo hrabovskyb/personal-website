@@ -1,0 +1,41 @@
+#menu-button{
+	display: inline-block;
+	float: right;
+}
+#headingOne{
+	padding:0;
+}
+.panel{
+	border: none;
+	background-color: #000;
+}
+.panel-body{
+	padding:0;
+}
+#logo{
+	display:inline-block;
+	float: left;
+}
+li {
+	width: 100%;
+	display: inline-block;
+}
+.list-group{
+	margin-bottom: 0;
+}
+.panel-group .panel-heading + .panel-collapse > .panel-body, .panel-group .panel-heading + .panel-collapse > .list-group{
+	border: none;
+}
+#tabs{
+	display: inline;
+	margin-left: auto;
+	margin-right:auto;
+	width:20%;
+	padding-right: 5px;
+}
+#accordion{
+	margin-bottom: 0;
+	width: 100%;
+	float: right;
+	position:relative;
+}
