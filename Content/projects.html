@@ -31,15 +31,6 @@
 	      </ul>
 	    </div>
   	</div>
-  	<!--div class="cycle-slideshow" data-cycle-speed="500" data-cycle-timeout="2000" data-cycle-auto-height="4:3" data-cycle-pause-on-hover="true">
-        <img src="Media/ritMeetsTheJetsons.png">
-        <img src="Media/jetsons_img1.png">
-        <img src="Media/jetsons_img2.png">
-        <img src="Media/jetsons_img5.png">
-        <img src="Media/jetsons_img3.png">
-        <img src="Media/jetsons_img4.png">
-        <img src="Media/jetsons_img6_22.png">
-    </div-->
 
   	<div class="projects">
   		<div class="container" id="aerodesign">
@@ -51,11 +42,12 @@
 			            <p>As a member of the RIT Aero Design club I have had the opportunity to work on many different practical application projects, from designing and building remote controled airplanes to side projects to increase productivity in the lab. Below are a few of the projects that I have worked on, either as a part of a team or an individual.</p>
 	          		</div>
 
-	          		<div class="cycle-slideshow" data-cycle-auto-height="2" data-cycle-timeout="0" data-cycle-prev="#prev-project" data-cycle-next="#next-project" data-cycle-loader="wait" data-cycle-slides="> div" data-cycle-caption="#total-project-caption" data-cycle-caption-template="Project {{slideNum}} of {{slideCount}}" >
+	          		<div class="cycle-slideshow" data-cycle-auto-height="0" data-cycle-timeout="0" data-cycle-prev="#prev-project" data-cycle-next="#next-project" data-cycle-loader="wait" data-cycle-slides="> div" data-cycle-caption="#total-project-caption" data-cycle-caption-template="Project {{slideNum}} of {{slideCount}}">
 						
 						<div class="project-slide">
           					<div class="slideshow-container">
 	          					<div class="cycle-slideshow project-photos" data-cycle-timeout="0" data-cycle-prev="#prev-project3-image" data-cycle-next="#next-project3-image">
+	          						<div class="cycle-caption"></div>
 	          						<img src="Media/aero-teststand-1.png">
 	                                <img src="Media/aero-teststand-2.png">
 	                                <img src="Media/aero-teststand-3.png">
@@ -67,14 +59,20 @@
 	          					</div>
 	          				</div>
           					<div class="project-description">
-          						<h3>Electric Motor Test Rig Benchmarking</h3>
-          						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+          						<h3>Electric Motor Test Rig</h3>
+          						<h4>Role: Project Lead</h4>
+          						<p>Since the Aero design team uses exclusively electric motors for our projects, a solution for safely and effectively testing these motors is essiential. A solution to collect the data and store it for analysis and future referencing was desired.</p>
+          						<p>A large cage that was constructed for a motor test by a former senior design team stand was generously donated to the club. However, the electronics were not included. Electronics, along with the design and manufacture of a mounting interface between the motor and the test stand, were needed for operation.</p>
+          						<p>The hardware interfacing the motor and the test stand was designed in Solidworks. All flat components were machined out of aluminum by Aero members. All other hardware, such as screws and standoffs, were purchased from a hardware store.</p>
+          						<p>An Arduino Uno was used to interface and control all of the electronics. A simple bar-style load cell is used to take thrust readings of the motor. The battery and electronic speed controller both interface with a control box outside of the testing cage for eas of access. The control box includes controls to arm/disarm the system, turn data logging on or off, tare the load cell, and control the speed of the motor. It also includes a screen that displays real-time thrust, throttle, voltage, and current values. The box itself was created with wood pieces cut on a laser cutter.</p>
+          						<p>When data logging is enabled, all relavent data is output serially. When connected to a serial monitor program such as PuTTY on a computer this data can be recorded for processing. A spreadsheet controlled with VBA and macros was created to facilitate quick and easy processing of the data. The spreadsheet also allows for archiving of results in order to reference them when doing research on power plants for future projects</p>
           					</div>
           				</div>
           				
           				<div class="project-slide">
           					<div class="slideshow-container">
 	          					<div class="cycle-slideshow project-photos" data-cycle-timeout="0" data-cycle-prev="#prev-project1-image" data-cycle-next="#next-project1-image">
+	          						<div class="cycle-caption"></div>
 	          						<img src="Media/aero-tandemwing-5.png">
 	                                <img src="Media/aero-tandemwing-1.png">
 	                                <img src="Media/aero-tandemwing-2.png">
@@ -89,6 +87,7 @@
 	          				</div>
           					<div class="project-description">
           						<h3>AIAA Competition: Tandem Wing Aircraft</h3>
+          						<h4>Role: Fuselage Team and Manufacturing</h4>
           						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
           					</div>
           				</div>
@@ -96,6 +95,7 @@
           				<div class="project-slide">
           					<div class="slideshow-container">
 	          					<div class="cycle-slideshow project-photos" data-cycle-timeout="0" data-cycle-prev="#prev-project2-image" data-cycle-next="#next-project2-image">
+	          						<div class="cycle-caption"></div>
 	          						<img src="Media/aero-powersupply-4.png">
 	                                <img src="Media/aero-powersupply-1.png">
 	                                <img src="Media/aero-powersupply-2.png">
@@ -109,6 +109,7 @@
 	          				</div>
           					<div class="project-description">
           						<h3>Computer Power Supply Conversion</h3>
+          						<h4>Role: Individual Project</h4>
           						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
           					</div>
           				</div>
@@ -136,6 +137,7 @@
         			<div class="slideshow-container">
 	        			<div class="cycle-slideshow" data-cycle-speed="500" data-cycle-timeout="0" data-cycle-prev="#prev-jetsons" data-cycle-next="#next-jetsons" data-cycle-center-horz=true data-cycle-caption="#alt-caption-jetsons" data-cycle-caption-template="{{alt}}">
 	                        <!--img src="Media/ritMeetsTheJetsons.png"-->
+	                        <div class="cycle-caption"></div>
 	                        <img src="Media/jetsons_img1.png" alt="Ready for takeoff">
 	                        <img src="Media/jetsons_img2.png" alt="Calibrating color recognition">
 	                        <img src="Media/jetsons_img5.png" alt="Trying to eliminate visual noise">
@@ -168,7 +170,8 @@
 			        </div>
 	          		<div class="slideshow-container">
 	        			<div class="cycle-slideshow" data-cycle-speed="500" data-cycle-timeout="0" data-cycle-prev="#prev-quadcopter" data-cycle-next="#next-quadcopter" data-cycle-center-horz=true data-cycle-caption="#alt-caption-quadcopter" data-cycle-caption-template="{{alt}}">
-	                        <!--img src="Media/ritMeetsTheJetsons.png"-->
+	                        
+                        	<div class="cycle-caption"></div>
                         	<img src="Media/quad1.png" alt="Rev. 1 CAD model (Autodesk Inventor)">
 	                        <img src="Media/quad2.png" alt="Rev. 1 Fabrication">
 	                        <img src="Media/quad3.png" alt="Rev. 2 CAD model (Solidworks)">
