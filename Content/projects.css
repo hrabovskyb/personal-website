@@ -112,10 +112,10 @@ h5{
 	width: 32px;
 }
 .slideshow-container{
-	width: 30%;
+
 	float: left;
 	margin-right: 1%;
-	min-width: 400px;
+	
 	margin-bottom: 1%;
 }
 
@@ -170,4 +170,18 @@ h5{
 .caption-img{
 	margin-top: 1%;
 	text-align: center;
+}
+
+@media (max-width: 450px){
+	.project-slide .slideshow-container{
+		width: 100%;
+	}
+	.slideshow-container {
+		width: 100%;
+	}
+}
+@media (min-width: 450px){
+	.slideshow-container{
+		min-width: 400px;
+	}
 }
