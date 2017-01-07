@@ -20,18 +20,32 @@
 
     <div class="centered-logo">
         <a href="index.html"><img src="Content/Media/gear_orange.png" id="logo"></a>
-    </div>
-    <div class="nav navbar" id="nav_bar">
-        <div class="container">
-            <ul class="nav nav-pills" id="tabs">
-                <li class="active"><a href="#" class="hvr-shutter-out-vertical">Home</a></li>
-                <li><a href="Content/resume.html" class="hvr-shutter-out-vertical">R&eacutesum&eacute</a></li>
-                <li><a href="Content/experience.html" class="hvr-shutter-out-vertical">Experience</a></li>
-                <li><a href="Content/projects.html" class="hvr-shutter-out-vertical">Projects</a></li>
-                <li><a href="Content/contact.html" class="hvr-shutter-out-vertical">Contact</a></li>
-            </ul>
+        <div class="navbar" id="nav_bar">
+            <div class="container">
+                <li class="icon"><a href="javascript:void(0);" onclick="toggleMenu()"><img src="Content/Media/menu-icon.png" id="icon-img"></a></li>
+                
+                <ul class="nav-pills" id="tabs">
+                    <li class="active"><a href="#" class="hvr-shutter-out-vertical">Home</a></li>
+                    <li><a href="Content/resume.html" class="hvr-shutter-out-vertical">R&eacutesum&eacute</a></li>
+                    <li><a href="Content/experience.html" class="hvr-shutter-out-vertical">Experience</a></li>
+                    <li><a href="Content/projects.html" class="hvr-shutter-out-vertical">Projects</a></li>
+                    <li><a href="Content/contact.html" class="hvr-shutter-out-vertical">Contact</a></li>
+                </ul>
+                
+            </div>
         </div>
     </div>
+    <script>
+        function toggleMenu() {
+            var x = document.getElementById("tabs");
+            if (x.className === "nav-pills") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-pills";
+            }
+        }
+    </script>
+    
 
     <div class="jumbotron">
       <div class="container">
