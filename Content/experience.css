@@ -206,6 +206,9 @@
 	#myTab li{
 		width: 20%;
 	}
+	#tab1{
+		margin-left: 5px;
+	}
 }
 
 @media(max-width: 1050px){
