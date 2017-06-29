@@ -22,7 +22,9 @@
         <a href="index.html"><img src="Content/Media/gear_orange.png" id="logo"></a>
         <div class="navbar" id="nav_bar">
             <div class="container">
-                <li class="icon"><a href="javascript:void(0);" onclick="toggleMenu()"><img src="Content/Media/menu-icon.png" id="icon-img"></a></li>
+                
+                <div onclick="openNav()" ><img src="Content/Media/menu-icon.png" id="menu-btn"></div>
+                
                 
                 <ul class="nav-pills" id="tabs">
                     <li class="active"><a href="#" class="hvr-shutter-out-vertical">Home</a></li>
@@ -34,17 +36,30 @@
                 
             </div>
         </div>
-    </div>
-    <script>
-        function toggleMenu() {
-            var x = document.getElementById("tabs");
-            if (x.className === "nav-pills") {
-                x.className += " responsive";
-            } else {
-                x.className = "nav-pills";
+
+        <div id="mySidenav" class = "sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="active-sidenav" href="#">Home</a>
+            <a href="Content/resume.html" class="hvr-shutter-out-vertical">R&eacutesum&eacute</a>
+            <a href="Content/experience.html" class="hvr-shutter-out-vertical">Experience</a>
+            <a href="Content/projects.html" class="hvr-shutter-out-vertical">Projects</a>
+            <a href="Content/contact.html" class="hvr-shutter-out-vertical">Contact</a>
+        </div>
+        <script>
+           
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
             }
-        }
-    </script>
+
+            /* Set the width of the side navigation to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+
+    </div>
+    
     
 
     <div class="jumbotron">
@@ -68,7 +83,7 @@
                 </div>
                 <div class="col-xs-6 col-lg-4 col-centered">
                     <div class="thumbnail">
-                        <img src="Content/Media/brady_hrabovsky2B.JPG">
+                        <img src="Content/Media/brady_hrabovsky.png">
                     </div>
                 </div>
             </div>
